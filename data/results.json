@@ -1,0 +1,581 @@
+```json
+{
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-01-15T14:20:00Z",
+    "totalResults": 4,
+    "totalViews": 24850,
+    "mostViewedResult": "result_002",
+    "recentResult": "result_004"
+  },
+  "results": [
+    {
+      "id": "result_001",
+      "surveyId": "survey_009",
+      "title": "تقرير تقييم خدمات النقل العام 2023",
+      "description": "تحليل شامل لنتائج استبيان تقييم خدمات النقل العام في المدن الحضرمية الرئيسية",
+      "summary": "كشف التقرير عن ارتفاع مستوى عدم الرضا عن خدمات النقل العام، حيث أعرب 72% من المشاركين عن عدم رضاهم، بينما كانت نسبة الرضا 28% فقط.",
+      "category": "خدمي",
+      "subcategory": "النقل والمواصلات",
+      "publishedDate": "2024-01-05",
+      "author": "فريق صوت حضرموت",
+      "views": 4200,
+      "downloads": 850,
+      "shares": 320,
+      "rating": 4.2,
+      "status": "published",
+      "tags": ["نقل", "مواصلات", "تقييم", "خدمات", "حضرموت"],
+      "thumbnail": "/assets/images/results/transport-thumb.jpg",
+      "fullReportUrl": "/reports/transport-evaluation-full.pdf",
+      "executiveSummaryUrl": "/reports/transport-executive-summary.pdf",
+      "dataFiles": {
+        "rawData": "/data/transport-raw-data.csv",
+        "processedData": "/data/transport-processed-data.xlsx",
+        "chartsData": "/data/transport-charts.json"
+      },
+      "keyFindings": [
+        {
+          "title": "مستوى الرضا العام",
+          "value": "28%",
+          "description": "نسبة المشاركين الراضين عن خدمات النقل العام",
+          "trend": "down",
+          "change": "-5% عن العام السابق"
+        },
+        {
+          "title": "أهم المشاكل",
+          "value": "3.2",
+          "description": "متوسط عدد المشاكل التي يواجهها المستخدم شهرياً",
+          "trend": "up",
+          "change": "+0.4 عن العام السابق"
+        },
+        {
+          "title": "جاهزية الدفع الإضافي",
+          "value": "65%",
+          "description": "نسبة المستعدين لدفع أكثر مقابل خدمات أفضل",
+          "trend": "up",
+          "change": "+12% عن العام السابق"
+        }
+      ],
+      "demographics": {
+        "totalParticipants": 3200,
+        "gender": {
+          "male": 68,
+          "female": 32
+        },
+        "ageGroups": {
+          "18-25": 40,
+          "26-35": 35,
+          "36-50": 20,
+          "51+": 5
+        },
+        "regions": {
+          "المكلا": 55,
+          "الشحر": 25,
+          "سيئون": 15,
+          "أخرى": 5
+        }
+      },
+      "charts": [
+        {
+          "type": "bar",
+          "title": "تقييم جودة الخدمة حسب المنطقة",
+          "data": {
+            "labels": ["المكلا", "الشحر", "سيئون", "الريدة", "غيل باوزير"],
+            "datasets": [
+              {
+                "label": "ممتاز",
+                "data": [15, 20, 25, 30, 18],
+                "backgroundColor": "#28a745"
+              },
+              {
+                "label": "جيد",
+                "data": [30, 35, 40, 25, 32],
+                "backgroundColor": "#17a2b8"
+              },
+              {
+                "label": "متوسط",
+                "data": [40, 35, 25, 30, 38],
+                "backgroundColor": "#ffc107"
+              },
+              {
+                "label": "ضعيف",
+                "data": [15, 10, 10, 15, 12],
+                "backgroundColor": "#dc3545"
+              }
+            ]
+          }
+        },
+        {
+          "type": "pie",
+          "title": "أهم المشاكل المذكورة",
+          "data": {
+            "labels": ["التأخير", "الازدحام", "النظافة", "سوء المعاملة", "ارتفاع الأسعار"],
+            "datasets": [
+              {
+                "data": [35, 25, 20, 15, 5],
+                "backgroundColor": ["#1a5f7a", "#2d829e", "#48bb78", "#ed8936", "#9f7aea"]
+              }
+            ]
+          }
+        }
+      ],
+      "recommendations": [
+        "تحسين جدولة الرحلات وتقليل فترات الانتظار",
+        "تطوير تطبيق ذكي لتتبع الحافلات وحجز المقاعد",
+        "تدريب السائقين على مهارات التعامل مع الجمهور",
+        "تخصيص حافلات للنقل النسائي خلال أوقات الذروة",
+        "إنشاء نظام شكاوى إلكتروني سريع الاستجابة"
+      ],
+      "aiInsights": {
+        "sentimentAnalysis": {
+          "positive": 28,
+          "neutral": 32,
+          "negative": 40
+        },
+        "keyTopics": ["التأخير", "الازدحام", "النظافة", "الأسعار", "الراحة"],
+        "trendPrediction": "من المتوقع استمرار انخفاض معدلات الرضا إذا لم تتخذ إجراءات تحسين سريعة"
+      }
+    },
+    {
+      "id": "result_002",
+      "surveyId": "survey_010",
+      "title": "تقرير الرضا عن الخدمات البلدية 2023",
+      "description": "تحليل نتائج استبيان قياس رضا المواطنين عن الخدمات البلدية في محافظة حضرموت",
+      "summary": "أظهر التقرير تحسناً ملحوظاً في مستوى الرضا عن الخدمات البلدية مقارنة بالعام الماضي، حيث ارتفعت نسبة الرضا من 45% إلى 62%.",
+      "category": "خدمي",
+      "subcategory": "الخدمات البلدية",
+      "publishedDate": "2024-01-10",
+      "author": "فريق صوت حضرموت",
+      "views": 6800,
+      "downloads": 1250,
+      "shares": 540,
+      "rating": 4.5,
+      "status": "published",
+      "tags": ["بلدية", "خدمات", "رضا", "تقييم", "حضرموت"],
+      "thumbnail": "/assets/images/results/municipal-thumb.jpg",
+      "fullReportUrl": "/reports/municipal-services-full.pdf",
+      "executiveSummaryUrl": "/reports/municipal-executive-summary.pdf",
+      "keyFindings": [
+        {
+          "title": "مستوى الرضا العام",
+          "value": "62%",
+          "description": "نسبة الرضا عن الخدمات البلدية",
+          "trend": "up",
+          "change": "+17% عن العام السابق"
+        },
+        {
+          "title": "أفضل خدمة",
+          "value": "جمع النفايات",
+          "description": "الخدمة الأكثر رضاً حسب التقييم",
+          "trend": "up",
+          "change": "تحسن بنسبة 25%"
+        },
+        {
+          "title": "أسوأ خدمة",
+          "value": "ترخيص البناء",
+          "description": "الخدمة الأقل رضاً حسب التقييم",
+          "trend": "neutral",
+          "change": "بدون تغيير"
+        }
+      ],
+      "demographics": {
+        "totalParticipants": 2850,
+        "gender": {
+          "male": 72,
+          "female": 28
+        },
+        "ageGroups": {
+          "18-25": 30,
+          "26-35": 40,
+          "36-50": 22,
+          "51+": 8
+        }
+      },
+      "charts": [
+        {
+          "type": "radar",
+          "title": "تقييم الخدمات البلدية",
+          "data": {
+            "labels": ["جمع النفايات", "النظافة العامة", "الحدائق", "ترخيص البناء", "الأسواق", "الإنارة"],
+            "datasets": [
+              {
+                "label": "التقييم 2023",
+                "data": [75, 68, 62, 45, 58, 65],
+                "borderColor": "#1a5f7a",
+                "backgroundColor": "rgba(26, 95, 122, 0.2)"
+              },
+              {
+                "label": "التقييم 2022",
+                "data": [50, 48, 45, 45, 40, 42],
+                "borderColor": "#ffc107",
+                "backgroundColor": "rgba(255, 193, 7, 0.2)"
+              }
+            ]
+          }
+        }
+      ],
+      "recommendations": [
+        "تبسيط إجراءات تراخيص البناء وتقليل المدد",
+        "زيادة وتيرة جمع النفايات في المناطق السكنية",
+        "تحسين إنارة الشوارع الرئيسية والفرعية",
+        "إنشاء نظام شكاوى إلكتروني متطور",
+        "تفعيل المشاركة المجتمعية في القرارات البلدية"
+      ],
+      "aiInsights": {
+        "sentimentAnalysis": {
+          "positive": 62,
+          "neutral": 25,
+          "negative": 13
+        },
+        "keyTopics": ["النظافة", "الإجراءات", "الكفاءة", "الاستجابة", "التطوير"],
+        "trendPrediction": "مستوى الرضا في تحسن مستمر مع تطبيق التحسينات المقترحة"
+      }
+    },
+    {
+      "id": "result_003",
+      "surveyId": "survey_011",
+      "title": "تقرير الوعي الصحي والممارسات الصحية 2023",
+      "description": "دراسة تحليلية لمستوى الوعي الصحي والممارسات الصحية السليمة بين أفراد المجتمع الحضرمي",
+      "summary": "كشف التقرير عن ارتفاع ملحوظ في مستوى الوعي الصحي، لكنه أشار إلى فجوة كبيرة بين المعرفة والممارسة الفعلية.",
+      "category": "صحي",
+      "subcategory": "الوعي الصحي",
+      "publishedDate": "2024-01-12",
+      "author": "فريق صوت حضرموت بالتعاون مع منظمة الصحة العالمية",
+      "views": 9200,
+      "downloads": 2100,
+      "shares": 780,
+      "rating": 4.7,
+      "status": "published",
+      "tags": ["صحة", "وعي", "وقاية", "ممارسات", "حضرموت"],
+      "thumbnail": "/assets/images/results/health-thumb.jpg",
+      "fullReportUrl": "/reports/health-awareness-full.pdf",
+      "executiveSummaryUrl": "/reports/health-executive-summary.pdf",
+      "keyFindings": [
+        {
+          "title": "مستوى الوعي العام",
+          "value": "78%",
+          "description": "نسبة المشاركين الذين يملكون وعياً صحياً جيداً",
+          "trend": "up",
+          "change": "+15% عن العام السابق"
+        },
+        {
+          "title": "فجوة المعرفة-الممارسة",
+          "value": "35%",
+          "description": "الفجوة بين المعرفة الصحية والتطبيق العملي",
+          "trend": "stable",
+          "change": "بدون تغيير ملحوظ"
+        },
+        {
+          "title": "مصادر المعلومات",
+          "value": "وسائل التواصل",
+          "description": "المصدر الرئيسي للمعلومات الصحية",
+          "trend": "up",
+          "change": "+40% عن السنوات السابقة"
+        }
+      ],
+      "demographics": {
+        "totalParticipants": 4100,
+        "gender": {
+          "male": 48,
+          "female": 52
+        },
+        "ageGroups": {
+          "18-25": 45,
+          "26-35": 35,
+          "36-50": 15,
+          "51+": 5
+        },
+        "education": {
+          "ثانوية": 30,
+          "دبلوم": 35,
+          "جامعي": 25,
+          "دراسات عليا": 10
+        }
+      },
+      "charts": [
+        {
+          "type": "bar",
+          "title": "مستوى الوعي بمواضيع صحية محددة",
+          "data": {
+            "labels": ["التغذية", "النشاط البدني", "النوم", "الصحة النفسية", "الفحوصات الدورية"],
+            "datasets": [
+              {
+                "label": "مستوى المعرفة",
+                "data": [85, 78, 65, 55, 45],
+                "backgroundColor": "#1a5f7a"
+              },
+              {
+                "label": "مستوى الممارسة",
+                "data": [60, 45, 50, 30, 25],
+                "backgroundColor": "#ffc107"
+              }
+            ]
+          }
+        },
+        {
+          "type": "pie",
+          "title": "مصادر الحصول على المعلومات الصحية",
+          "data": {
+            "labels": ["وسائل التواصل", "المؤسسات الصحية", "المدرسة/الجامعة", "الأسرة", "أخرى"],
+            "datasets": [
+              {
+                "data": [65, 20, 8, 5, 2],
+                "backgroundColor": ["#1a5f7a", "#2d829e", "#48bb78", "#ed8936", "#9f7aea"]
+              }
+            ]
+          }
+        }
+      ],
+      "recommendations": [
+        "تعزيز الحملات التوعوية عبر وسائل التواصل الاجتماعي",
+        "دمج التثقيف الصحي في المناهج الدراسية",
+        "إنشاء عيادات توعوية متنقلة للمناطق النائية",
+        "تطوير تطبيقات ذكية للتوعية الصحية",
+        "تعزيز دور المراكز الصحية في التثقيف المجتمعي"
+      ],
+      "aiInsights": {
+        "sentimentAnalysis": {
+          "positive": 78,
+          "neutral": 15,
+          "negative": 7
+        },
+        "keyTopics": ["التغذية", "الرياضة", "الصحة النفسية", "الوقاية", "الفحص"],
+        "trendPrediction": "من المتوقع ارتفاع مستوى الممارسة الصحية مع زيادة البرامج التوعوية"
+      },
+      "comparativeData": {
+        "previousYear": {
+          "awarenessLevel": 63,
+          "practiceGap": 35
+        },
+        "nationalAverage": {
+          "awarenessLevel": 65,
+          "practiceGap": 40
+        }
+      }
+    },
+    {
+      "id": "result_004",
+      "surveyId": "survey_012",
+      "title": "تقرير ريادة الأعمال والمشاريع الصغيرة 2023",
+      "description": "تحليل شامل لواقع ريادة الأعمال وتحديات المشاريع الصغيرة في محافظة حضرموت",
+      "summary": "أظهر التقرير نمواً في ثقافة ريادة الأعمال لكن مع استمرار التحديات التمويلية والإجرائية التي تواجه أصحاب المشاريع.",
+      "category": "اقتصادي",
+      "subcategory": "ريادة الأعمال",
+      "publishedDate": "2024-01-14",
+      "author": "فريق صوت حضرموت",
+      "views": 4650,
+      "downloads": 980,
+      "shares": 420,
+      "rating": 4.3,
+      "status": "published",
+      "tags": ["ريادة أعمال", "مشاريع", "تمويل", "تحديات", "اقتصاد"],
+      "thumbnail": "/assets/images/results/entrepreneurship-thumb.jpg",
+      "fullReportUrl": "/reports/entrepreneurship-full.pdf",
+      "executiveSummaryUrl": "/reports/entrepreneurship-executive-summary.pdf",
+      "keyFindings": [
+        {
+          "title": "نمو ريادة الأعمال",
+          "value": "+22%",
+          "description": "نسبة النمو في إنشاء المشاريع الصغيرة",
+          "trend": "up",
+          "change": "+8% عن العام السابق"
+        },
+        {
+          "title": "التحدي الرئيسي",
+          "value": "التمويل",
+          "description": "العائق الأكبر أمام نمو المشاريع",
+          "trend": "stable",
+          "change": "لا يزال التحدي الأكبر"
+        },
+        {
+          "title": "معدل النجاح",
+          "value": "58%",
+          "description": "نسبة المشاريع التي استمرت لأكثر من عامين",
+          "trend": "up",
+          "change": "+5% عن العام السابق"
+        }
+      ],
+      "demographics": {
+        "totalParticipants": 1850,
+        "gender": {
+          "male": 65,
+          "female": 35
+        },
+        "ageGroups": {
+          "18-25": 25,
+          "26-35": 45,
+          "36-50": 25,
+          "51+": 5
+        },
+        "businessExperience": {
+          "أقل من سنة": 30,
+          "1-3 سنوات": 45,
+          "3-5 سنوات": 15,
+          "أكثر من 5 سنوات": 10
+        }
+      },
+      "charts": [
+        {
+          "type": "horizontalBar",
+          "title": "أكبر التحديات التي تواجه ريادة الأعمال",
+          "data": {
+            "labels": ["التمويل", "الإجراءات الحكومية", "السوق", "الكوادر", "التسويق", "التقنية"],
+            "datasets": [
+              {
+                "label": "درجة التحدي (من 10)",
+                "data": [8.5, 7.2, 6.8, 6.5, 6.2, 5.8],
+                "backgroundColor": "#1a5f7a"
+              }
+            ]
+          }
+        },
+        {
+          "type": "line",
+          "title": "تطور ريادة الأعمال خلال 5 سنوات",
+          "data": {
+            "labels": ["2019", "2020", "2021", "2022", "2023"],
+            "datasets": [
+              {
+                "label": "عدد المشاريع الجديدة",
+                "data": [350, 420, 480, 520, 620],
+                "borderColor": "#1a5f7a",
+                "backgroundColor": "rgba(26, 95, 122, 0.1)"
+              },
+              {
+                "label": "معدل النجاح",
+                "data": [45, 48, 52, 53, 58],
+                "borderColor": "#28a745",
+                "backgroundColor": "rgba(40, 167, 69, 0.1)"
+              }
+            ]
+          }
+        }
+      ],
+      "recommendations": [
+        "إنشاء صندوق تمويل ميسر لرواد الأعمال الشباب",
+        "تبسيط الإجراءات الحكومية وتقليل المدد",
+        "إنشاء حاضنات أعمال في المدن الرئيسية",
+        "تطوير برامج تدريبية متخصصة في إدارة المشاريع",
+        "تعزيز الشراكات بين القطاعين العام والخاص"
+      ],
+      "aiInsights": {
+        "sentimentAnalysis": {
+          "positive": 65,
+          "neutral": 25,
+          "negative": 10
+        },
+        "keyTopics": ["التمويل", "البيروقراطية", "التسويق", "التدريب", "الدعم"],
+        "trendPrediction": "من المتوقع استمرار النمو مع تحسن بيئة الأعمال"
+      },
+      "sectorAnalysis": {
+        "topSectors": [
+          {
+            "sector": "التجارة الإلكترونية",
+            "growth": 35,
+            "successRate": 65
+          },
+          {
+            "sector": "الخدمات التقنية",
+            "growth": 28,
+            "successRate": 70
+          },
+          {
+            "sector": "المشاريع الغذائية",
+            "growth": 25,
+            "successRate": 60
+          }
+        ]
+      }
+    }
+  ],
+  "statistics": {
+    "totalResults": 4,
+    "totalViews": 24850,
+    "averageRating": 4.43,
+    "totalDownloads": 5180,
+    "totalShares": 2060,
+    "mostViewedCategory": "صحي",
+    "mostSharedResult": "result_003",
+    "completionRate": 100,
+    "averageTimeToPublish": "7 أيام"
+  },
+  "trends": {
+    "viewsByMonth": {
+      "labels": ["سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر", "يناير"],
+      "data": [4200, 6800, 9200, 4650, 0]
+    },
+    "categoryDistribution": {
+      "خدمي": 2,
+      "صحي": 1,
+      "اقتصادي": 1
+    },
+    "engagementMetrics": {
+      "averageTimeOnPage": "4.5 دقائق",
+      "scrollDepth": "72%",
+      "bounceRate": "28%"
+    }
+  },
+  "upcomingResults": [
+    {
+      "surveyId": "survey_004",
+      "title": "تقرير جودة التعليم الجامعي",
+      "expectedDate": "2024-02-05",
+      "status": "analysis",
+      "progress": 85
+    },
+    {
+      "surveyId": "survey_003",
+      "title": "تقرير الحفاظ على التراث الثقافي",
+      "expectedDate": "2024-02-20",
+      "status": "data_processing",
+      "progress": 78
+    },
+    {
+      "surveyId": "survey_001",
+      "title": "تقرير جودة الخدمات الصحية",
+      "expectedDate": "2024-02-15",
+      "status": "data_collection",
+      "progress": 65
+    }
+  ],
+  "popularSearches": [
+    {
+      "term": "الخدمات البلدية",
+      "count": 1240,
+      "trend": "up"
+    },
+    {
+      "term": "النقل العام",
+      "count": 980,
+      "trend": "stable"
+    },
+    {
+      "term": "ريادة الأعمال",
+      "count": 850,
+      "trend": "up"
+    },
+    {
+      "term": "الوعي الصحي",
+      "count": 720,
+      "trend": "up"
+    }
+  ],
+  "methodology": {
+    "dataCollection": "استبيانات إلكترونية ومقابلات ميدانية",
+    "sampleSize": "المشاركون يمثلون مختلف الفئات العمرية والمناطق",
+    "marginOfError": "±3% عند مستوى ثقة 95%",
+    "analysisTools": [
+      "SPSS للإحصاءات الوصفية",
+      "Python للتحليل المتقدم",
+      "Tableau للتصورات",
+      "TensorFlow.js لتحليل المشاعر"
+    ],
+    "qualityAssurance": "مراجعة مزدوجة وتحقق من الدقة"
+  },
+  "downloadOptions": {
+    "formats": ["PDF", "Excel", "CSV", "JSON"],
+    "sections": ["النتائج الكاملة", "الملخص التنفيذي", "البيانات الخام", "الرسوم البيانية"],
+    "license": "Creative Commons Attribution 4.0"
+  }
+}
+```
