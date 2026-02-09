@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="صوت حضرموت - منصة الاستبيانات التفاعلية لجمع آراء المجتمع الحضرمي">
+    <meta name="keywords" content="حضرموت, استبيانات, رأي عام, مجتمع حضرمي, قضايا حضرمية">
+    <meta name="author" content="صوت حضرموت">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="صوت حضرموت - المنصة التفاعلية للرأي العام الحضرمي">
+    <meta property="og:description" content="شارك في استبياناتنا وساهم في تشكيل مستقبل حضرموت">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://voiceofhadhramaut.github.io">
+    
+    <title>صوت حضرموت - المنصة التفاعلية للرأي العام الحضرمي</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="js/main.js" as="script">
+    <link rel="preload" href="assets/images/hero-bg.jpg" as="image">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">جاري التحميل...</span>
+            </div>
+            <p class="mt-3">جاري تحميل منصة صوت حضرموت</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="صوت حضرموت" class="logo">
+                <span>صوت حضرموت</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/surveys.html">الاستبيانات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/results.html">النتائج</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/blog.html">المدونة</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/about.html">عن المشروع</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contact.html">اتصل بنا</a></li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary btn-sm" href="pages/dashboard/login.html">
+                            <i class="fas fa-sign-in-alt"></i> دخول
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content animate__animated animate__fadeInRight">
+                        <h1 class="display-4 fw-bold">صوت حضرموت</h1>
+                        <h2 class="h3 mb-4">منصة الاستبيانات التفاعلية للرأي العام الحضرمي</h2>
+                        <p class="lead mb-4">
+                            شارك برأيك وساهم في تشكيل مستقبل حضرموت. منصة تفاعلية تجمع آراء المواطنين الحضارمة حول القضايا المجتمعية، الاقتصادية، والثقافية.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="pages/surveys.html" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-poll"></i> ابدأ الاستبيان
+                            </a>
+                            <a href="#features" class="btn btn-outline-light btn-lg">
+                                <i class="fas fa-info-circle"></i> تعرف أكثر
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image animate__animated animate__fadeInLeft">
+                        <div class="floating-chart" id="floatingChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#features" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- Statistics Bar -->
+    <section class="stats-bar py-3">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="12540">0</h3>
+                        <p>مشارك في الاستبيانات</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="48">0</h3>
+                        <p>استبيان منفذ</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="92">0</h3>
+                        <p>نسبة المشاركة النشطة</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="15">0</h3>
+                        <p>تقرير منشور</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">مميزات المنصة</h2>
+                <p class="section-subtitle">منصة متكاملة تعكس صوت المجتمع الحضرمي</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>خصوصية تامة</h4>
+                        <p>بياناتك محمية ولا يتم الكشف عن هويات المشاركين</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4>ذكاء اصطناعي</h4>
+                        <p>تحليل ذكي للبيانات باستخدام أحدث تقنيات الذكاء الاصطناعي</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>تقارير تفاعلية</h4>
+                        <p>نتائج مفصلة مع رسوم بيانية وتقارير قابلة للتصدير</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>تصميم متجاوب</h4>
+                        <p>واجهة متكاملة تعمل على جميع الأجهزة والشاشات</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Active Surveys Section -->
+    <section class="surveys-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">الاستبيانات النشطة</h2>
+                <p class="section-subtitle">شارك في استبياناتنا الحالية</p>
+                <a href="pages/surveys.html" class="btn btn-link">عرض جميع الاستبيانات</a>
+            </div>
+            <div class="row" id="activeSurveys">
+                <!-- Dynamic content from JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">فئات الاستبيانات</h2>
+                <p class="section-subtitle">استبيانات تغطي جميع جوانب الحياة في حضرموت</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="category-card social">
+                        <div class="category-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>القضايا المجتمعية</h4>
+                        <p>استبيانات حول الحياة الاجتماعية والثقافية</p>
+                        <span class="badge">12 استبيان</span>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="category-card economic">
+                        <div class="category-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h4>القضايا الاقتصادية</h4>
+                        <p>دراسات حول التنمية الاقتصادية والاستثمار</p>
+                        <span class="badge">8 استبيانات</span>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="category-card political">
+                        <div class="category-icon">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <h4>الشؤون السياسية</h4>
+                        <p>استطلاعات الرأي حول القضايا السياسية</p>
+                        <span class="badge">10 استبيانات</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Analysis Preview -->
+    <section class="ai-analysis-section py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="ai-preview">
+                        <h3 class="mb-4">تحليل ذكي باستخدام الذكاء الاصطناعي</h3>
+                        <p class="mb-4">
+                            نستخدم تقنيات الذكاء الاصطناعي المتطورة لتحليل الاتجاهات وفهم المشاعر في ردود المشاركين، مما يوفر رؤى عميقة ودقيقة.
+                        </p>
+                        <ul class="ai-features">
+                            <li><i class="fas fa-check-circle"></i> تحليل المشاعر في النصوص العربية</li>
+                            <li><i class="fas fa-check-circle"></i> تصنيف تلقائي للاقتراحات</li>
+                            <li><i class="fas fa-check-circle"></i> تنبؤ بالاتجاهات المستقبلية</li>
+                            <li><i class="fas fa-check-circle"></i> توليد تقارير ذكية</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ai-visualization">
+                        <canvas id="sentimentChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Results -->
+    <section class="results-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">أحدث النتائج</h2>
+                <p class="section-subtitle">اطلع على نتائج الاستبيانات المنتهية</p>
+            </div>
+            <div class="row" id="recentResults">
+                <!-- Dynamic content from JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-3">انضم إلى قائمة المراسلة</h3>
+                    <p>احصل على آخر الاستبيانات والنتائج والتحديثات مباشرة في بريدك الإلكتروني</p>
+                </div>
+                <div class="col-lg-6">
+                    <form id="newsletterForm" class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="بريدك الإلكتروني" required>
+                            <button class="btn btn-light" type="submit">
+                                <i class="fas fa-paper-plane"></i> اشتراك
+                            </button>
+                        </div>
+                        <div class="form-text mt-2">
+                            <i class="fas fa-lock"></i> نحن نحترم خصوصيتك ولن نشارك بريدك مع أي جهة
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <img src="assets/images/logo.png" alt="صوت حضرموت" class="footer-logo">
+                        <h4>صوت حضرموت</h4>
+                        <p class="mt-3">منصة تفاعلية تجمع وتوثق صوت المواطن الحضرمي وتطلعاته نحو مستقبل أفضل.</p>
+                        <div class="social-links mt-4">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-telegram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>روابط سريعة</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="pages/surveys.html">الاستبيانات</a></li>
+                        <li><a href="pages/results.html">النتائج</a></li>
+                        <li><a href="pages/blog.html">المدونة</a></li>
+                        <li><a href="pages/about.html">عن المشروع</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>مصادر مهمة</h5>
+                    <ul class="footer-links">
+                        <li><a href="pages/privacy.html">سياسة الخصوصية</a></li>
+                        <li><a href="pages/terms.html">شروط الاستخدام</a></li>
+                        <li><a href="pages/faq.html">الأسئلة الشائعة</a></li>
+                        <li><a href="pages/contact.html">اتصل بنا</a></li>
+                        <li><a href="pages/contribute.html">المساهمة في المشروع</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5>اتصل بنا</h5>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@voiceofhadhramaut.org</p>
+                        <p><i class="fas fa-phone"></i> +967 123 456 789</p>
+                        <p><i class="fas fa-map-marker-alt"></i> حضرموت، اليمن</p>
+                    </div>
+                    <div class="mt-4">
+                        <a href="https://github.com/voiceofhadhramaut" class="btn btn-outline-light btn-sm">
+                            <i class="fab fa-github"></i> مصدر المشروع على GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">© 2024 صوت حضرموت. جميع الحقوق محفوظة.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">مطور بتقنيات مفتوحة المصدر ❤️</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <!-- App Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    
+    <!-- Initialize App -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize the application
+            if (typeof App !== 'undefined') {
+                App.init();
+            }
+            
+            // Load active surveys
+            if (typeof SurveyLoader !== 'undefined') {
+                SurveyLoader.loadActiveSurveys();
+                SurveyLoader.loadRecentResults();
+            }
+            
+            // Initialize charts
+            if (typeof ChartManager !== 'undefined') {
+                ChartManager.initSentimentChart();
+                ChartManager.initFloatingChart();
+            }
+            
+            // Hide loading screen
+            setTimeout(() => {
+                document.getElementById('loading-screen').style.display = 'none';
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
