@@ -1,0 +1,590 @@
+```json
+{
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-01-15T16:45:00Z",
+    "totalUsers": 12540,
+    "activeUsers": 8920,
+    "newUsersToday": 85,
+    "verifiedUsers": 7680
+  },
+  "users": [
+    {
+      "id": "user_001",
+      "username": "ahmed_alhadhrami",
+      "email": "ahmed@example.com",
+      "emailVerified": true,
+      "phone": "+967711234567",
+      "phoneVerified": true,
+      "profile": {
+        "firstName": "أحمد",
+        "lastName": "الحضرمي",
+        "fullName": "أحمد محمد الحضرمي",
+        "gender": "male",
+        "dateOfBirth": "1990-05-15",
+        "age": 33,
+        "avatar": "/assets/avatars/ahmed.jpg",
+        "bio": "باحث اجتماعي مهتم بالتنمية المجتمعية في حضرموت",
+        "occupation": "باحث اجتماعي",
+        "organization": "مركز الدراسات الحضرمية",
+        "education": "ماجستير في العلوم الاجتماعية",
+        "interests": ["التنمية المجتمعية", "البحث العلمي", "التراث الحضرمي"]
+      },
+      "location": {
+        "country": "اليمن",
+        "region": "حضرموت",
+        "city": "المكلا",
+        "district": "الروضة",
+        "coordinates": {
+          "lat": 14.5530,
+          "lng": 49.1242
+        },
+        "timezone": "Asia/Aden"
+      },
+      "account": {
+        "type": "premium",
+        "status": "active",
+        "createdAt": "2023-03-10T14:30:00Z",
+        "lastLogin": "2024-01-15T10:20:00Z",
+        "loginCount": 142,
+        "twoFactorEnabled": true,
+        "privacyLevel": "private",
+        "notificationSettings": {
+          "email": true,
+          "sms": false,
+          "push": true,
+          "newsletter": true,
+          "surveyInvitations": true
+        }
+      },
+      "stats": {
+        "surveysCompleted": 28,
+        "surveysCreated": 3,
+        "totalPoints": 1850,
+        "currentStreak": 15,
+        "longestStreak": 42,
+        "accuracyRate": 92.5,
+        "contributionLevel": "expert",
+        "rank": 12,
+        "percentile": 99
+      },
+      "activity": {
+        "lastActive": "2024-01-15T10:20:00Z",
+        "averageDailyTime": "45 دقيقة",
+        "favoriteCategories": ["اجتماعي", "ثقافي", "تعليمي"],
+        "recentSurveys": ["survey_003", "survey_006", "survey_011"],
+        "achievements": [
+          {
+            "id": "ach_001",
+            "name": "المساهم المتميز",
+            "description": "إكمال 25 استبيان",
+            "icon": "fas fa-star",
+            "earnedAt": "2023-12-01"
+          },
+          {
+            "id": "ach_002",
+            "name": "باحث التراث",
+            "description": "المشاركة في 5 استبيانات تراثية",
+            "icon": "fas fa-landmark",
+            "earnedAt": "2023-11-15"
+          }
+        ]
+      },
+      "social": {
+        "connections": 45,
+        "following": 28,
+        "followers": 67,
+        "sharedSurveys": 12,
+        "comments": 24,
+        "likes": 89
+      },
+      "preferences": {
+        "language": "ar",
+        "theme": "dark",
+        "fontSize": "medium",
+        "autoSave": true,
+        "dataSharing": "anonymous",
+        "surveyPreferences": {
+          "maxTime": 20,
+          "preferredCategories": ["اجتماعي", "ثقافي"],
+          "notificationFrequency": "daily"
+        }
+      },
+      "security": {
+        "lastPasswordChange": "2023-12-01",
+        "failedLoginAttempts": 0,
+        "sessions": [
+          {
+            "device": "Chrome on Windows",
+            "location": "المكلا، اليمن",
+            "lastActive": "2024-01-15T10:20:00Z",
+            "active": true
+          }
+        ],
+        "trustedDevices": ["desktop_windows"],
+        "loginHistory": [
+          {
+            "date": "2024-01-15T10:20:00Z",
+            "device": "Chrome on Windows",
+            "location": "المكلا، اليمن",
+            "status": "success"
+          }
+        ]
+      }
+    },
+    {
+      "id": "user_002",
+      "username": "fatima_researcher",
+      "email": "fatima@example.com",
+      "emailVerified": true,
+      "phone": "+967733456789",
+      "phoneVerified": true,
+      "profile": {
+        "firstName": "فاطمة",
+        "lastName": "البحوث",
+        "fullName": "فاطمة علي البحوث",
+        "gender": "female",
+        "dateOfBirth": "1995-08-22",
+        "age": 28,
+        "avatar": "/assets/avatars/fatima.jpg",
+        "bio": "طبيبة وباحثة في الصحة المجتمعية، مهتمة بتحسين الخدمات الصحية بحضرموت",
+        "occupation": "طبيبة",
+        "organization": "مستشفى المكلا العام",
+        "education": "دكتوراه في الطب",
+        "interests": ["الصحة العامة", "البحث العلمي", "التنمية الصحية"]
+      },
+      "location": {
+        "country": "اليمن",
+        "region": "حضرموت",
+        "city": "المكلا",
+        "district": "الميناء",
+        "coordinates": {
+          "lat": 14.5332,
+          "lng": 49.1312
+        }
+      },
+      "account": {
+        "type": "researcher",
+        "status": "active",
+        "createdAt": "2023-05-20T09:15:00Z",
+        "lastLogin": "2024-01-15T09:45:00Z",
+        "loginCount": 89,
+        "twoFactorEnabled": true
+      },
+      "stats": {
+        "surveysCompleted": 42,
+        "surveysCreated": 5,
+        "totalPoints": 3120,
+        "currentStreak": 28,
+        "longestStreak": 65,
+        "accuracyRate": 95.2,
+        "contributionLevel": "master",
+        "rank": 5,
+        "percentile": 99.8
+      },
+      "activity": {
+        "lastActive": "2024-01-15T09:45:00Z",
+        "averageDailyTime": "60 دقيقة",
+        "favoriteCategories": ["صحي", "اجتماعي", "اقتصادي"],
+        "recentSurveys": ["survey_001", "survey_007", "survey_011"]
+      }
+    },
+    {
+      "id": "user_003",
+      "username": "saif_developer",
+      "email": "saif@example.com",
+      "emailVerified": true,
+      "phone": "+967755678901",
+      "phoneVerified": false,
+      "profile": {
+        "firstName": "سيف",
+        "lastName": "المطور",
+        "fullName": "سيف أحمد المطور",
+        "gender": "male",
+        "dateOfBirth": "1998-03-10",
+        "age": 25,
+        "avatar": "/assets/avatars/saif.jpg",
+        "bio": "مطور ويب ومهتم بالتقنية والتحول الرقمي في حضرموت",
+        "occupation": "مطور ويب",
+        "organization": "شركة حضرموت للتقنية",
+        "education": "بكالوريوس في علوم الحاسوب",
+        "interests": ["التقنية", "البرمجة", "ريادة الأعمال"]
+      },
+      "location": {
+        "country": "اليمن",
+        "region": "حضرموت",
+        "city": "سيئون",
+        "district": "القديمة"
+      },
+      "account": {
+        "type": "basic",
+        "status": "active",
+        "createdAt": "2023-08-15T11:20:00Z",
+        "lastLogin": "2024-01-14T22:10:00Z",
+        "loginCount": 56
+      },
+      "stats": {
+        "surveysCompleted": 18,
+        "surveysCreated": 1,
+        "totalPoints": 980,
+        "currentStreak": 7,
+        "longestStreak": 21,
+        "accuracyRate": 88.3,
+        "contributionLevel": "intermediate",
+        "rank": 156,
+        "percentile": 92
+      }
+    },
+    {
+      "id": "user_004",
+      "username": "nora_teacher",
+      "email": "nora@example.com",
+      "emailVerified": true,
+      "phone": "+967777890123",
+      "phoneVerified": true,
+      "profile": {
+        "firstName": "نورا",
+        "lastName": "المعلمة",
+        "fullName": "نورا سعيد المعلمة",
+        "gender": "female",
+        "dateOfBirth": "1985-11-30",
+        "age": 38,
+        "avatar": "/assets/avatars/nora.jpg",
+        "bio": "معلمة ومدربة، مهتمة بتطوير التعليم في حضرموت",
+        "occupation": "معلمة",
+        "organization": "مدرسة النهضة",
+        "education": "ماجستير في التربية",
+        "interests": ["التعليم", "التدريب", "تنمية المهارات"]
+      },
+      "location": {
+        "country": "اليمن",
+        "region": "حضرموت",
+        "city": "الشحر",
+        "district": "السوق"
+      },
+      "account": {
+        "type": "basic",
+        "status": "active",
+        "createdAt": "2023-10-05T08:45:00Z",
+        "lastLogin": "2024-01-15T08:30:00Z",
+        "loginCount": 42
+      },
+      "stats": {
+        "surveysCompleted": 22,
+        "surveysCreated": 2,
+        "totalPoints": 1350,
+        "currentStreak": 12,
+        "longestStreak": 30,
+        "accuracyRate": 90.5,
+        "contributionLevel": "advanced",
+        "rank": 78,
+        "percentile": 96
+      }
+    },
+    {
+      "id": "user_005",
+      "username": "yousef_business",
+      "email": "yousef@example.com",
+      "emailVerified": true,
+      "phone": "+967799012345",
+      "phoneVerified": true,
+      "profile": {
+        "firstName": "يوسف",
+        "lastName": "التاجر",
+        "fullName": "يوسف محمد التاجر",
+        "gender": "male",
+        "dateOfBirth": "1975-06-18",
+        "age": 48,
+        "avatar": "/assets/avatars/yousef.jpg",
+        "bio": "رجل أعمال ومستثمر في قطاع السياحة بحضرموت",
+        "occupation": "رجل أعمال",
+        "organization": "مجموعة سياحة حضرموت",
+        "education": "بكالوريوس في إدارة الأعمال",
+        "interests": ["الاستثمار", "السياحة", "التنمية الاقتصادية"]
+      },
+      "location": {
+        "country": "اليمن",
+        "region": "حضرموت",
+        "city": "المكلا",
+        "district": "الميناء"
+      },
+      "account": {
+        "type": "business",
+        "status": "active",
+        "createdAt": "2023-12-01T10:00:00Z",
+        "lastLogin": "2024-01-15T11:15:00Z",
+        "loginCount": 18
+      },
+      "stats": {
+        "surveysCompleted": 8,
+        "surveysCreated": 0,
+        "totalPoints": 450,
+        "currentStreak": 3,
+        "longestStreak": 8,
+        "accuracyRate": 85.2,
+        "contributionLevel": "beginner",
+        "rank": 420,
+        "percentile": 85
+      }
+    }
+  ],
+  "statistics": {
+    "total": 12540,
+    "active": 8920,
+    "inactive": 3620,
+    "verified": 7680,
+    "demographics": {
+      "gender": {
+        "male": 58,
+        "female": 42
+      },
+      "ageGroups": {
+        "18-25": 35,
+        "26-35": 40,
+        "36-50": 20,
+        "51+": 5
+      },
+      "regions": {
+        "المكلا": 45,
+        "الشحر": 20,
+        "سيئون": 15,
+        "الريدة": 8,
+        "غيل باوزير": 5,
+        "أخرى": 7
+      },
+      "education": {
+        "ثانوية": 25,
+        "دبلوم": 30,
+        "بكالوريوس": 35,
+        "دراسات عليا": 10
+      }
+    },
+    "engagement": {
+      "dailyActiveUsers": 1250,
+      "weeklyActiveUsers": 4850,
+      "monthlyActiveUsers": 8920,
+      "averageSessionDuration": "25 دقيقة",
+      "retentionRate": 78.5,
+      "churnRate": 21.5
+    },
+    "accountTypes": {
+      "basic": 65,
+      "premium": 20,
+      "researcher": 10,
+      "business": 5
+    },
+    "activityLevels": {
+      "beginner": 40,
+      "intermediate": 35,
+      "advanced": 15,
+      "expert": 8,
+      "master": 2
+    }
+  },
+  "growth": {
+    "monthlyGrowth": 12.5,
+    "newUsersThisMonth": 980,
+    "retentionRate": 78.5,
+    "acquisitionChannels": {
+      "organic": 45,
+      "socialMedia": 30,
+      "referral": 15,
+      "email": 8,
+      "other": 2
+    },
+    "trends": {
+      "labels": ["يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"],
+      "data": [8500, 9200, 9800, 10500, 11500, 12540]
+    }
+  },
+  "achievements": {
+    "topAchievers": [
+      {
+        "userId": "user_002",
+        "username": "fatima_researcher",
+        "achievements": 12,
+        "points": 3120
+      },
+      {
+        "userId": "user_001",
+        "username": "ahmed_alhadhrami",
+        "achievements": 8,
+        "points": 1850
+      },
+      {
+        "userId": "user_004",
+        "username": "nora_teacher",
+        "achievements": 6,
+        "points": 1350
+      }
+    ],
+    "commonAchievements": [
+      {
+        "id": "ach_001",
+        "name": "المبتدئ",
+        "description": "إكمال أول استبيان",
+        "earnedBy": 8920,
+        "percentage": 71.2
+      },
+      {
+        "id": "ach_002",
+        "name": "المتابع المنتظم",
+        "description": "تسجيل الدخول لمدة 7 أيام متتالية",
+        "earnedBy": 4850,
+        "percentage": 38.7
+      },
+      {
+        "id": "ach_003",
+        "name": "الباحث الاجتماعي",
+        "description": "إكمال 10 استبيانات اجتماعية",
+        "earnedBy": 2560,
+        "percentage": 20.4
+      }
+    ]
+  },
+  "surveyParticipation": {
+    "totalSurveysCompleted": 85620,
+    "averagePerUser": 6.8,
+    "mostActiveCategories": {
+      "اجتماعي": 25,
+      "صحي": 22,
+      "اقتصادي": 18,
+      "ثقافي": 15,
+      "تعليمي": 12,
+      "أخرى": 8
+    },
+    "completionRates": {
+      "overall": 92.5,
+      "byCategory": {
+        "صحي": 95.2,
+        "اجتماعي": 93.8,
+        "اقتصادي": 91.5,
+        "ثقافي": 90.3,
+        "تعليمي": 89.7
+      }
+    }
+  },
+  "social": {
+    "totalConnections": 125400,
+    "averageConnections": 10,
+    "mostFollowedUsers": [
+      {
+        "userId": "user_002",
+        "username": "fatima_researcher",
+        "followers": 245
+      },
+      {
+        "userId": "user_001",
+        "username": "ahmed_alhadhrami",
+        "followers": 189
+      }
+    ],
+    "engagement": {
+      "comments": 45210,
+      "likes": 125800,
+      "shares": 25640,
+      "averageEngagementRate": 8.5
+    }
+  },
+  "notableUsers": {
+    "verifiedResearchers": [
+      {
+        "userId": "user_001",
+        "name": "أحمد الحضرمي",
+        "specialization": "البحث الاجتماعي",
+        "verifiedBy": "مركز الدراسات الحضرمية"
+      },
+      {
+        "userId": "user_002",
+        "name": "فاطمة البحوث",
+        "specialization": "البحث الصحي",
+        "verifiedBy": "مستشفى المكلا العام"
+      }
+    ],
+    "communityLeaders": [
+      {
+        "userId": "user_004",
+        "name": "نورا المعلمة",
+        "role": "مشرفة تربوية",
+        "organization": "وزارة التربية والتعليم"
+      }
+    ],
+    "businessPartners": [
+      {
+        "userId": "user_005",
+        "name": "يوسف التاجر",
+        "business": "مجموعة سياحة حضرموت",
+        "partnershipType": "راعي ذهبي"
+      }
+    ]
+  },
+  "recentActivity": [
+    {
+      "userId": "user_001",
+      "action": "survey_completed",
+      "details": "أكمل استبيان 'الحفاظ على التراث الثقافي'",
+      "timestamp": "2024-01-15T10:15:00Z",
+      "pointsEarned": 40
+    },
+    {
+      "userId": "user_002",
+      "action": "achievement_earned",
+      "details": "حصل على إنجاز 'الباحث المتميز'",
+      "timestamp": "2024-01-15T09:30:00Z"
+    },
+    {
+      "userId": "user_003",
+      "action": "profile_updated",
+      "details": "قام بتحدية معلومات الملف الشخصي",
+      "timestamp": "2024-01-14T22:05:00Z"
+    },
+    {
+      "userId": "user_004",
+      "action": "survey_shared",
+      "details": "شارك استبيان 'دور المرأة في التنمية'",
+      "timestamp": "2024-01-15T08:45:00Z",
+      "pointsEarned": 10
+    },
+    {
+      "userId": "user_005",
+      "action": "comment_added",
+      "details": "أضاف تعليقاً على نتائج استبيان ريادة الأعمال",
+      "timestamp": "2024-01-15T11:20:00Z",
+      "pointsEarned": 5
+    }
+  ],
+  "privacyAndConsent": {
+    "dataSharingPreferences": {
+      "public": 35,
+      "anonymous": 50,
+      "private": 15
+    },
+    "newsletterSubscriptions": 7680,
+    "surveyInvitations": 8920,
+    "gdprCompliant": true,
+    "lastPrivacyUpdate": "2024-01-01"
+  },
+  "support": {
+    "openTickets": 12,
+    "resolvedThisMonth": 85,
+    "averageResponseTime": "2 ساعة",
+    "commonIssues": [
+      {
+        "issue": "نسيت كلمة المرور",
+        "count": 45,
+        "percentage": 35
+      },
+      {
+        "issue": "تحقق البريد الإلكتروني",
+        "count": 30,
+        "percentage": 23
+      },
+      {
+        "issue": "مشاكل في المشاركة",
+        "count": 25,
+        "percentage": 19
+      }
+    ]
+  }
+}
+```
