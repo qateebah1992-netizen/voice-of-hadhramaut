@@ -1,0 +1,704 @@
+data/surveys.json```json
+{
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-01-15T10:30:00Z",
+    "totalSurveys": 12,
+    "activeSurveys": 8,
+    "completedSurveys": 4
+  },
+  "surveys": [
+    {
+      "id": "survey_001",
+      "title": "جودة الخدمات الصحية في حضرموت",
+      "description": "استبيان لتقييم جودة الخدمات الصحية المقدمة في المستشفيات والمراكز الصحية بمحافظة حضرموت",
+      "category": "صحي",
+      "subcategory": "الخدمات الصحية",
+      "status": "active",
+      "createdDate": "2024-01-10",
+      "endDate": "2024-02-10",
+      "duration": "30 يوم",
+      "participants": {
+        "total": 1250,
+        "target": 5000,
+        "percentage": 25
+      },
+      "progress": 65,
+      "questionsCount": 15,
+      "estimatedTime": "10 دقائق",
+      "language": "عربي",
+      "region": "حضرموت",
+      "tags": ["صحة", "خدمات", "مستشفيات", "رعاية صحية"],
+      "privacyLevel": "public",
+      "requiresLogin": false,
+      "rewardPoints": 50,
+      "author": {
+        "name": "وزارة الصحة - حضرموت",
+        "type": "governmental"
+      },
+      "analytics": {
+        "views": 3450,
+        "starts": 1280,
+        "completions": 1250,
+        "completionRate": 97.7,
+        "avgCompletionTime": "12.5 دقيقة",
+        "dropOffRate": 2.3
+      },
+      "settings": {
+        "allowMultipleAttempts": false,
+        "showProgress": true,
+        "randomizeQuestions": false,
+        "showResults": true,
+        "shareable": true
+      }
+    },
+    {
+      "id": "survey_002",
+      "title": "تحديات سوق العمل للشباب الحضرمي",
+      "description": "دراسة التحديات التي تواجه الشباب في الحصول على فرص عمل مناسبة في سوق العمل الحضرمي",
+      "category": "اقتصادي",
+      "subcategory": "سوق العمل",
+      "status": "active",
+      "createdDate": "2024-01-05",
+      "endDate": "2024-01-31",
+      "duration": "25 يوم",
+      "participants": {
+        "total": 890,
+        "target": 3000,
+        "percentage": 29.7
+      },
+      "progress": 42,
+      "questionsCount": 20,
+      "estimatedTime": "15 دقائق",
+      "language": "عربي",
+      "region": "حضرموت",
+      "tags": ["توظيف", "شباب", "اقتصاد", "تنمية"],
+      "privacyLevel": "public",
+      "requiresLogin": true,
+      "rewardPoints": 75,
+      "author": {
+        "name": "غرفة تجارة حضرموت",
+        "type": "private"
+      },
+      "analytics": {
+        "views": 2150,
+        "starts": 950,
+        "completions": 890,
+        "completionRate": 93.7,
+        "avgCompletionTime": "18.2 دقيقة",
+        "dropOffRate": 6.3
+      },
+      "settings": {
+        "allowMultipleAttempts": false,
+        "showProgress": true,
+        "randomizeQuestions": true,
+        "showResults": true,
+        "shareable": true
+      }
+    },
+    {
+      "id": "survey_003",
+      "title": "الحفاظ على التراث الثقافي الحضرمي",
+      "description": "استطلاع آراء المجتمع حول سبل الحفاظ على التراث الثقافي والهوية الحضرمية",
+      "category": "ثقافي",
+      "subcategory": "التراث",
+      "status": "active",
+      "createdDate": "2024-01-01",
+      "endDate": "2024-02-15",
+      "duration": "45 يوم",
+      "participants": {
+        "total": 1560,
+        "target": 4000,
+        "percentage": 39
+      },
+      "progress": 78,
+      "questionsCount": 12,
+      "estimatedTime": "8 دقائق",
+      "language": "عربي",
+      "region": "حضرموت",
+      "tags": ["تراث", "ثقافة", "هوية", "موروث"],
+      "privacyLevel": "public",
+      "requiresLogin": false,
+      "rewardPoints": 40,
+      "author": {
+        "name": "جمعية التراث الحضرمي",
+        "type": "ngo"
+      },
+      "analytics": {
+        "views": 4200,
+        "starts": 1650,
+        "completions": 1560,
+        "completionRate": 94.5,
+        "avgCompletionTime": "9.8 دقيقة",
+        "dropOffRate": 5.5
+      },
+      "settings": {
+        "allowMultipleAttempts": false,
+        "showProgress": true,
+        "randomizeQuestions": false,
+        "showResults": true,
+        "shareable": true
+      }
+    },
+    {
+      "id": "survey_004",
+      "title": "تقييم جودة التعليم الجامعي",
+      "description": "دراسة تقييمية لجودة التعليم في الجامعات والمؤسسات التعليمية بحضرموت",
+      "category": "تعليمي",
+      "subcategory": "التعليم العالي",
+      "status": "active",
+      "createdDate": "2023-12-20",
+      "endDate": "2024-01-31",
+      "duration": "42 يوم",
+      "participants": {
+        "total": 2100,
+        "target": 5000,
+        "percentage": 42
+      },
+      "progress": 85,
+      "questionsCount": 18,
+      "estimatedTime": "12 دقائق",
+      "language": "عربي",
+      "region": "حضرموت",
+      "tags": ["تعليم", "جامعات", "جودة", "طلاب"],
+      "privacyLevel": "public",
+      "requiresLogin": true,
+      "rewardPoints": 60,
+      "author": {
+        "name": "وزارة التعليم العالي",
+        "type": "governmental"
+      },
+      "analytics": {
+        "views": 5100,
+        "starts": 2250,
+        "completions": 2100,
+        "completionRate": 93.3,
+        "avgCompletionTime": "14.5 دقيقة",
+        "dropOffRate": 6.7
+      },
+      "settings": {
+        "allowMultipleAttempts": false,
+        "showProgress": true,
+        "randomizeQuestions": true,
+        "showResults": false,
+        "shareable": true
+      }
+    },
+    {
+      "id": "survey_005",
+      "title": "تحديات البنية التحتية في المناطق الريفية",
+      "description": "استبيان حول تحديات البنية التحتية (طرق، مياه، كهرباء) في المناطق الريفية بحضرموت",
+      "category": "تنموي",
+      "subcategory": "البنية التحتية",
+      "status": "active",
+      "createdDate": "2024-01-08",
+      "endDate": "2024-02-28",
+      "duration": "50 يوم",
+      "participants": {
+        "total": 780,
+        "target": 2000,
+        "percentage": 39
+      },
+      "progress": 55,
+      "questionsCount": 14,
+      "estimatedTime": "10 دقائق",
+      "language": "عربي",
+      "region": "حضرموت - الريف",
+      "tags": ["بنية تحتية", "ريف", "تنمية", "خدمات أساسية"],
+      "privacyLevel": "public",
+      "requiresLogin": false,
+      "rewardPoints": 45,
+      "author": {
+        "name": "هيئة الأشغال العامة",
+        "type": "governmental"
+      },
+      "analytics": {
+        "views": 1850,
+        "starts": 850,
+        "completions": 780,
+        "completionRate": 91.8,
+        "avgCompletionTime": "11.2 دقيقة",
+        "dropOffRate": 8.2
+      },
+      "settings": {
+        "allowMultipleAttempts": false,
+        "showProgress": true,
+        "randomizeQuestions": false,
+        "showResults": true,
+        "shareable": true
+      }
+    },
+    {
+      "id": "survey_006",
+      "title": "دور المرأة في التنمية المجتمعية",
+      "description": "دراسة حول دور المرأة الحضرمية في التنمية المجتمعية والمشاركة في صنع القرار",
+      "category": "اجتماعي",
+      "subcategory": "المرأة والمجتمع",
+      "status": "active",
+      "createdDate": "2024-01-12",
+      "endDate": "2024-02-20",
+      "duration": "38 يوم",
+      "participants": {
+        "total": 1120,
+        "target": 3000,
+        "percentage": 37.3
+      },
+      "progress": 68,
+      "questionsCount": 16,
+      "estimatedTime": "12 دقائق",
+      "language": "عربي",
+      "region": "حضرموت",
+      "tags": ["مرأة", "مجتمع", "تنمية", "تمكين"],
+      "privacyLevel": "public",
+      "requiresLogin": false,
+      "rewardPoints": 55,
+      "author": {
+        "name": "مجلس سيدات الأعمال",
+        "type": "private"
+      },
+      "analytics": {
+        "views": 2950,
+        "starts": 1200,
+        "completions": 1120,
+        "completionRate": 93.3,
+        "avgCompletionTime": "13.8 دقيقة",
+        "dropOffRate": 6.7
+      },
+      "settings": {
+        "allowMultipleAttempts": false,
+        "showProgress": true,
+        "randomizeQuestions": true,
+        "showResults": true,
+        "shareable": true
+      }
+    },
+    {
+      "id": "survey_007",
+      "title": "تأثير التغير المناخي على الزراعة",
+      "description": "دراسة تأثير التغيرات المناخية على القطاع الزراعي في وادي حضرموت",
+      "category": "بيئي",
+      "subcategory": "الزراعة والمناخ",
+      "status": "active",
+      "createdDate": "2024-01-03",
+      "endDate": "2024-02-05",
+      "duration": "33 يوم",
+      "participants": {
+        "total": 650,
+        "target": 1500,
+        "percentage": 43.3
+      },
+      "progress": 72,
+      "questionsCount": 13,
+      "estimatedTime": "9 دقائق",
+      "language": "عربي",
+      "region": "وادي حضرموت",
+      "tags": ["مناخ", "زراعة", "بيئة", "تغير مناخي"],
+      "privacyLevel": "public",
+      "requiresLogin": true,
+      "rewardPoints": 50,
+      "author": {
+        "name": "وزارة الزراعة - فرع حضرموت",
+        "type": "governmental"
+      },
+      "analytics": {
+        "views": 1650,
+        "starts": 720,
+        "completions": 650,
+        "completionRate": 90.3,
+        "avgCompletionTime": "10.5 دقيقة",
+        "dropOffRate": 9.7
+      },
+      "settings": {
+        "allowMultipleAttempts": false,
+        "showProgress": true,
+        "randomizeQuestions": false,
+        "showResults": true,
+        "shareable": true
+      }
+    },
+    {
+      "id": "survey_008",
+      "title": "السياحة الداخلية والترويج للمقومات السياحية",
+      "description": "استطلاع آراء حول واقع السياحة الداخلية وسُبل الترويج للمقومات السياحية بحضرموت",
+      "category": "اقتصادي",
+      "subcategory": "السياحة",
+      "status": "active",
+      "createdDate": "2024-01-15",
+      "endDate": "2024-03-01",
+      "duration": "45 يوم",
+      "participants": {
+        "total": 430,
+        "target": 2000,
+        "percentage": 21.5
+      },
+      "progress": 35,
+      "questionsCount": 17,
+      "estimatedTime": "11 دقائق",
+      "language": "عربي",
+      "region": "حضرموت",
+      "tags": ["سياحة", "ترويج", "اقتصاد", "معالم سياحية"],
+      "privacyLevel": "public",
+      "requiresLogin": false,
+      "rewardPoints": 65,
+      "author": {
+        "name": "هيئة السياحة الحضرمية",
+        "type": "governmental"
+      },
+      "analytics": {
+        "views": 1250,
+        "starts": 480,
+        "completions": 430,
+        "completionRate": 89.6,
+        "avgCompletionTime": "12.3 دقيقة",
+        "dropOffRate": 10.4
+      },
+      "settings": {
+        "allowMultipleAttempts": false,
+        "showProgress": true,
+        "randomizeQuestions": true,
+        "showResults": true,
+        "shareable": true
+      }
+    },
+    {
+      "id": "survey_009",
+      "title": "تقييم خدمات النقل العام",
+      "description": "دراسة تقييمية لجودة خدمات النقل العام في المدن الحضرمية الرئيسية",
+      "category": "خدمي",
+      "subcategory": "النقل والمواصلات",
+      "status": "completed",
+      "createdDate": "2023-11-01",
+      "endDate": "2023-12-15",
+      "duration": "44 يوم",
+      "participants": {
+        "total": 3200,
+        "target": 4000,
+        "percentage": 80
+      },
+      "progress": 100,
+      "questionsCount": 15,
+      "estimatedTime": "10 دقائق",
+      "language": "عربي",
+      "region": "المكلا، الشحر، سيئون",
+      "tags": ["نقل", "مواصلات", "خدمات", "تقييم"],
+      "privacyLevel": "public",
+      "requiresLogin": false,
+      "rewardPoints": 40,
+      "author": {
+        "name": "بلدية المكلا",
+        "type": "governmental"
+      },
+      "analytics": {
+        "views": 7800,
+        "starts": 3500,
+        "completions": 3200,
+        "completionRate": 91.4,
+        "avgCompletionTime": "11.8 دقيقة",
+        "dropOffRate": 8.6
+      },
+      "settings": {
+        "allowMultipleAttempts": false,
+        "showProgress": true,
+        "randomizeQuestions": false,
+        "showResults": true,
+        "shareable": true
+      },
+      "resultsPublished": true,
+      "resultsUrl": "/results/transport-evaluation-2023"
+    },
+    {
+      "id": "survey_010",
+      "title": "مستوى الرضا عن الخدمات البلدية",
+      "description": "استبيان لقياس مستوى رضا المواطنين عن الخدمات البلدية المقدمة",
+      "category": "خدمي",
+      "subcategory": "الخدمات البلدية",
+      "status": "completed",
+      "createdDate": "2023-10-15",
+      "endDate": "2023-11-30",
+      "duration": "45 يوم",
+      "participants": {
+        "total": 2850,
+        "target": 3500,
+        "percentage": 81.4
+      },
+      "progress": 100,
+      "questionsCount": 14,
+      "estimatedTime": "9 دقائق",
+      "language": "عربي",
+      "region": "حضرموت",
+      "tags": ["بلدية", "خدمات", "رضا", "تقييم"],
+      "privacyLevel": "public",
+      "requiresLogin": false,
+      "rewardPoints": 35,
+      "author": {
+        "name": "الاتحاد العام للبلديات",
+        "type": "governmental"
+      },
+      "analytics": {
+        "views": 6500,
+        "starts": 3100,
+        "completions": 2850,
+        "completionRate": 91.9,
+        "avgCompletionTime": "10.2 دقيقة",
+        "dropOffRate": 8.1
+      },
+      "settings": {
+        "allowMultipleAttempts": false,
+        "showProgress": true,
+        "randomizeQuestions": true,
+        "showResults": true,
+        "shareable": true
+      },
+      "resultsPublished": true,
+      "resultsUrl": "/results/municipal-services-2023"
+    },
+    {
+      "id": "survey_011",
+      "title": "الوعي الصحي والممارسات الصحية السليمة",
+      "description": "دراسة مستوى الوعي الصحي والممارسات الصحية بين أفراد المجتمع الحضرمي",
+      "category": "صحي",
+      "subcategory": "الوعي الصحي",
+      "status": "completed",
+      "createdDate": "2023-09-01",
+      "endDate": "2023-10-15",
+      "duration": "44 يوم",
+      "participants": {
+        "total": 4100,
+        "target": 5000,
+        "percentage": 82
+      },
+      "progress": 100,
+      "questionsCount": 18,
+      "estimatedTime": "12 دقائق",
+      "language": "عربي",
+      "region": "حضرموت",
+      "tags": ["وعي صحي", "وقاية", "صحة مجتمع", "تثقيف"],
+      "privacyLevel": "public",
+      "requiresLogin": false,
+      "rewardPoints": 50,
+      "author": {
+        "name": "منظمة الصحة العالمية - فرع حضرموت",
+        "type": "international"
+      },
+      "analytics": {
+        "views": 9200,
+        "starts": 4500,
+        "completions": 4100,
+        "completionRate": 91.1,
+        "avgCompletionTime": "13.5 دقيقة",
+        "dropOffRate": 8.9
+      },
+      "settings": {
+        "allowMultipleAttempts": false,
+        "showProgress": true,
+        "randomizeQuestions": false,
+        "showResults": true,
+        "shareable": true
+      },
+      "resultsPublished": true,
+      "resultsUrl": "/results/health-awareness-2023"
+    },
+    {
+      "id": "survey_012",
+      "title": "ريادة الأعمال والمشاريع الصغيرة",
+      "description": "دراسة حول واقع ريادة الأعمال وتحديات المشاريع الصغيرة في حضرموت",
+      "category": "اقتصادي",
+      "subcategory": "ريادة الأعمال",
+      "status": "completed",
+      "createdDate": "2023-08-15",
+      "endDate": "2023-09-30",
+      "duration": "45 يوم",
+      "participants": {
+        "total": 1850,
+        "target": 3000,
+        "percentage": 61.7
+      },
+      "progress": 100,
+      "questionsCount": 20,
+      "estimatedTime": "15 دقائق",
+      "language": "عربي",
+      "region": "حضرموت",
+      "tags": ["ريادة أعمال", "مشاريع صغيرة", "اقتصاد", "تمويل"],
+      "privacyLevel": "public",
+      "requiresLogin": true,
+      "rewardPoints": 70,
+      "author": {
+        "name": "صندوق التنمية الصناعية",
+        "type": "governmental"
+      },
+      "analytics": {
+        "views": 4200,
+        "starts": 2000,
+        "completions": 1850,
+        "completionRate": 92.5,
+        "avgCompletionTime": "16.8 دقيقة",
+        "dropOffRate": 7.5
+      },
+      "settings": {
+        "allowMultipleAttempts": false,
+        "showProgress": true,
+        "randomizeQuestions": true,
+        "showResults": true,
+        "shareable": true
+      },
+      "resultsPublished": true,
+      "resultsUrl": "/results/entrepreneurship-2023"
+    }
+  ],
+  "categories": [
+    {
+      "id": "health",
+      "name": "صحي",
+      "description": "استبيانات حول الصحة والخدمات الصحية",
+      "icon": "fas fa-heartbeat",
+      "color": "#dc3545",
+      "surveyCount": 2,
+      "activeCount": 1
+    },
+    {
+      "id": "economic",
+      "name": "اقتصادي",
+      "description": "استبيانات حول الاقتصاد وسوق العمل والاستثمار",
+      "icon": "fas fa-chart-line",
+      "color": "#28a745",
+      "surveyCount": 3,
+      "activeCount": 2
+    },
+    {
+      "id": "cultural",
+      "name": "ثقافي",
+      "description": "استبيانات حول التراث الثقافي والهوية",
+      "icon": "fas fa-landmark",
+      "color": "#6f42c1",
+      "surveyCount": 1,
+      "activeCount": 1
+    },
+    {
+      "id": "educational",
+      "name": "تعليمي",
+      "description": "استبيانات حول التعليم والتدريب",
+      "icon": "fas fa-graduation-cap",
+      "color": "#17a2b8",
+      "surveyCount": 1,
+      "activeCount": 1
+    },
+    {
+      "id": "developmental",
+      "name": "تنموي",
+      "description": "استبيانات حول التنمية والبنية التحتية",
+      "icon": "fas fa-hammer",
+      "color": "#fd7e14",
+      "surveyCount": 1,
+      "activeCount": 1
+    },
+    {
+      "id": "social",
+      "name": "اجتماعي",
+      "description": "استبيانات حول القضايا الاجتماعية والمجتمعية",
+      "icon": "fas fa-users",
+      "color": "#20c997",
+      "surveyCount": 1,
+      "activeCount": 1
+    },
+    {
+      "id": "environmental",
+      "name": "بيئي",
+      "description": "استبيانات حول البيئة والمناخ",
+      "icon": "fas fa-leaf",
+      "color": "#20c997",
+      "surveyCount": 1,
+      "activeCount": 1
+    },
+    {
+      "id": "service",
+      "name": "خدمي",
+      "description": "استبيانات حول الخدمات العامة",
+      "icon": "fas fa-concierge-bell",
+      "color": "#6c757d",
+      "surveyCount": 2,
+      "activeCount": 0
+    }
+  ],
+  "statistics": {
+    "totalParticipants": 20430,
+    "averageCompletionRate": 93.2,
+    "averageTimePerSurvey": "12.8 دقيقة",
+    "mostPopularCategory": "صحي",
+    "mostActiveRegion": "المكلا",
+    "genderDistribution": {
+      "male": 58,
+      "female": 42
+    },
+    "ageDistribution": {
+      "18-25": 35,
+      "26-35": 40,
+      "36-50": 20,
+      "51+": 5
+    },
+    "educationDistribution": {
+      "highSchool": 25,
+      "diploma": 30,
+      "bachelor": 35,
+      "postgraduate": 10
+    }
+  },
+  "recentActivity": [
+    {
+      "date": "2024-01-15",
+      "surveyId": "survey_008",
+      "action": "launched",
+      "description": "تم إطلاق استبيان السياحة الداخلية"
+    },
+    {
+      "date": "2024-01-12",
+      "surveyId": "survey_006",
+      "action": "milestone",
+      "description": "تجاوز استبيان دور المرأة 1000 مشارك"
+    },
+    {
+      "date": "2024-01-10",
+      "surveyId": "survey_001",
+      "action": "launched",
+      "description": "تم إطلاق استبيان جودة الخدمات الصحية"
+    },
+    {
+      "date": "2024-01-08",
+      "surveyId": "survey_005",
+      "action": "updated",
+      "description": "تم تحديث أسئلة استبيان البنية التحتية"
+    },
+    {
+      "date": "2024-01-05",
+      "surveyId": "survey_002",
+      "action": "extended",
+      "description": "تم تمديد فترة استبيان سوق العمل"
+    }
+  ],
+  "upcomingSurveys": [
+    {
+      "id": "survey_013",
+      "title": "الأمن الغذائي والمحاصيل الاستراتيجية",
+      "description": "دراسة حول الأمن الغذائي والمحاصيل الاستراتيجية في وادي حضرموت",
+      "category": "زراعي",
+      "plannedDate": "2024-02-01",
+      "estimatedParticipants": 2000
+    },
+    {
+      "id": "survey_014",
+      "title": "الرياضة والشباب",
+      "description": "استبيان حول واقع الرياضة والمرافق الرياضية للشباب",
+      "category": "رياضي",
+      "plannedDate": "2024-02-15",
+      "estimatedParticipants": 1500
+    },
+    {
+      "id": "survey_015",
+      "title": "التكنولوجيا والتحول الرقمي",
+      "description": "دراسة مستوى تبني التكنولوجيا والتحول الرقمي في المؤسسات",
+      "category": "تقني",
+      "plannedDate": "2024-03-01",
+      "estimatedParticipants": 1200
+    }
+  ]
+}
+```
